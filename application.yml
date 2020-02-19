@@ -6,12 +6,12 @@
 ---
 spring:
   profiles: dev
-    application: 
-      name: microservicecloud-config-zrf-dev
+  application: 
+    name: microservicecloud-config-zrf-dev
     
 ---
 
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-zrf-dev
+    name: microservicecloud-config-zrf-test
