@@ -12,6 +12,6 @@ spring:
 ---
 
 spring:
-  profiles: test
+  profiles: test1
   application:
-    name: microservicecloud-config-zrf-test
+    name: microservicecloud-config-zrf-test1
