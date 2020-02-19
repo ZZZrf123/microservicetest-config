@@ -1,0 +1,29 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+
+---
+server:
+  port: 8201
+spring:
+  profiles: dev
+  application: 
+    name: microservicecloud-config-cilent
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-dev.com:7001/eureka/
+    
+---
+
+server:
+  port: 8202
+spring:
+  profiles: test1
+  application: 
+    name: microservicecloud-config-cilent
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-test1.com:7001/eureka/
